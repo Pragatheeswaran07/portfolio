@@ -1,0 +1,23 @@
+@keyframes color-change 
+{
+0%{
+    color:red;
+}
+50%{
+    color:blue;
+}
+100%{
+    color:green;
+}
+    
+}
+@keyframes box-change{
+    0%{
+        transform: rotate(360deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}

@@ -1,0 +1,45 @@
+input{
+    padding:0.4rem 3rem;
+    background: transparent;
+    border:2px solid green;
+    
+}
+.contact-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    
+}
+label{
+    position: relative;
+    color:red;
+    top:-30px;
+    left:-70px;
+    transition:0.3s;
+}
+.input--name:focus ~label{
+    
+    font-size: 0.8rem;
+    top:-42px;
+    background:#FCF7F9;
+    padding: 2px;
+    
+}
+.input--phno:focus ~label{
+    
+    font-size: 0.8rem;
+    top:-42px;
+    background:#FCF7F9;
+    padding: 2px;
+    
+}
+.input--email:focus ~label{
+    
+    font-size: 0.8rem;
+    top:-42px;
+    background:#FCF7F9;
+    padding: 2px;
+    
+}
